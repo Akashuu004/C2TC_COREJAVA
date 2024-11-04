@@ -1,6 +1,8 @@
 package com.tns.ifet.day3;
 
+
 public class Person {
+	//Data members
 	private String name;
 	private int income;
 	private String gender;
@@ -42,8 +44,5 @@ public class Person {
 	@Override
 	public String toString() {
 	return "Person [name=" + name + ", income=" + income + ", gender=" + gender + ", age=" + age + ", tax="+tax+"]";
-    }
+	}
 }
-
-
-		
