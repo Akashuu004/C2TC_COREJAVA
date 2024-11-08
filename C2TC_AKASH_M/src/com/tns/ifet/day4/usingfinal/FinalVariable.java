@@ -10,12 +10,12 @@ public class FinalVariable {
 	final static int Y;
 
 	// Declare & intialize static final variable.
-	final static int Z = 10;
+	static int Z = 10;
 
 	// instatnce method
 	void change() {
-		x = 30; // final variables can't be reassigned
-		Y = 200; // final static variables can't be reassigned
+		//x = 30; // final variables can't be reassigned
+		//Y = 200; // final static variables can't be reassigned
 	}
 
 	@Override
